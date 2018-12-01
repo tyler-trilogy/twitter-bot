@@ -24,8 +24,8 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 # Load model
-import en_core_web_md
-nlp = en_core_web_md.load()
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 me = 'TylerUCSD'
 
